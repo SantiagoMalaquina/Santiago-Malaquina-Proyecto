@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* todo esto es para la imagen que quiero poner de fondo */
+body {
+  background-color: rgb(255, 230, 202);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  height: 100px;
+  background-color: cornsilk;
+  padding-left: 4.5%;
+}
+
+.header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header nav ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  border: black solid 1px;
+  color: black;
+  padding: 5px;
+}
+
+.header nav ul li:hover {
+  background-color: rgb(255, 230, 202);
+}
+
+.tituloyfoto {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 60px;
+}
+
+footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(237, 158, 172),
+    rgb(239, 74, 74)
+  );
+  text-align: center;
+  border: 2px rgb(250, 192, 212) solid;
+}
+
+.footer {
+  padding: 5px;
+}
+
+.contacto {
+  text-align: center;
+}
+
+.imagenes {
+  text-align: center;
+  margin: 27px;
+}
+.tamañofoto {
+  width: 50%;
+  border: solid rgb(250, 192, 212) 2px;
+}
+
+.imagenesVestidos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  text-align: center;
+}
+
+.imagenesAccesorios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  text-align: center;
+}
+
+.imagenesMonos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  text-align: center;
+}
+
+.imagenesConjuntos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  text-align: center;
+}
+
+.imagenesVestidos div {
+  border: 2px rgb(250, 192, 212) solid;
+}
+
+.imagenesAccesorios div {
+  border: 2px rgb(250, 192, 212) solid;
+}
+.imagenesMonos div {
+  border: 2px rgb(250, 192, 212) solid;
+}
+
+.imagenesConjuntos div {
+  border: 2px rgb(250, 192, 212) solid;
+}
+
+.h1vestidos {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.h1accesorios {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.h1monos {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.h1conjuntos {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.imagenesindex {
+  display: grid;
+  grid-template-areas:
+    "indexVestido indexVestido indexVestido"
+    "indexVestido indexVestido indexVestido"
+    "indexVestido indexVestido indexVestido"
+    "indexMono indexConjunto indexAccesorio";
+  grid-template-rows: 27% 27% 27% 27%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  margin-bottom: 400px;
+}
+
+.indexVestido {
+  grid-area: indexVestido;
+  text-align: center;
+}
+
+.indexMono {
+  grid-area: indexMono;
+  text-align: center;
+}
+
+.indexConjunto {
+  grid-area: indexConjunto;
+  text-align: center;
+}
+
+.indexAccesorio {
+  grid-area: indexAccesorio;
+  text-align: center;
+}
+
+.fotoindex {
+  width: 90%;
+  border: solid rgb(250, 192, 212) 2px;
+}
+
+.fotoindex1 {
+  width: 60%;
+  border: solid rgb(250, 192, 212) 2px;
+}
+
+@media screen and (max-width: 1270px) {
+  .imagenesVestidos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    text-align: center;
+}
+ }
