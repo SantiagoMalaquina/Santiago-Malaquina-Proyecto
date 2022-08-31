@@ -28,10 +28,26 @@ body {
   border: black solid 1px;
   color: black;
   padding: 5px;
+ border-radius: 1rem;
+ box-shadow: 2px rgba(0, 0, 0, .5);
+
+
+}
+@keyframes pulse {
+  0% {
+    transform: scale(.90);
+  }
+  50% {
+    transform: scale(.70);
+  }
+  100% {
+    transform: scale(.99);
+  }
 }
 
 .header nav ul li:hover {
-  background-color: rgb(255, 230, 202);
+  background-color: rgb(253, 164, 245);
+  animation: pulse 0.7s infinite;
 }
 
 .tituloyfoto {
@@ -41,11 +57,8 @@ body {
 }
 
 footer {
-  background-image: linear-gradient(
-    to right,
-    rgb(237, 158, 172),
-    rgb(239, 74, 74)
-  );
+  background: rgb(251,104,104);
+  background: linear-gradient(0deg, rgba(251,104,104,1) 0%, rgba(255,99,117,1) 31%, rgba(255,88,117,1) 100%);
   text-align: center;
   border: 2px rgb(250, 192, 212) solid;
 }
@@ -65,7 +78,10 @@ footer {
 .tamañofoto {
   width: 50%;
   border: solid rgb(250, 192, 212) 2px;
+
 }
+
+
 
 .imagenesVestidos {
   display: grid;
@@ -175,6 +191,10 @@ footer {
 .fotoindex {
   width: 90%;
   border: solid rgb(250, 192, 212) 2px;
+}
+
+.fotoindex1 :hover {
+  -o-animation-name: inherit;
 }
 
 .fotoindex1 {
