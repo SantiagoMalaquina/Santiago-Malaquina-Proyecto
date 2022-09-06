@@ -5,34 +5,19 @@
 }
 /* todo esto es para la imagen que quiero poner de fondo */
 body {
-  background-color: rgb(255, 230, 202);
+  background-color: rgb(242, 222, 199);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.header {
-  height: 100px;
-  background-color: cornsilk;
-  padding-left: 4.5%;
-}
 
-.header nav ul {
-  display: flex;
-  flex-direction: row;
-}
 
 .header nav ul li {
-  display: flex;
-  flex-direction: column;
-  margin: 40px;
-  border: black solid 1px;
-  color: black;
-  padding: 5px;
- border-radius: 1rem;
- box-shadow: 2px rgba(0, 0, 0, .5);
 
-
+  border: rgb(255, 175, 219) solid 1px;
 }
+
+
 @keyframes pulse {
   0% {
     transform: scale(.90);
@@ -46,7 +31,7 @@ body {
 }
 
 .header nav ul li:hover {
-  background-color: rgb(253, 164, 245);
+  background-color: rgb(238, 192, 234);
   animation: pulse 0.7s infinite;
 }
 
@@ -202,6 +187,8 @@ footer {
   border: solid rgb(250, 192, 212) 2px;
 }
 
+
+
 @media screen and (max-width: 1270px) {
   .imagenesVestidos {
     display: grid;
@@ -210,3 +197,17 @@ footer {
     text-align: center;
 }
  }
+
+ .carousel-inner img {
+  width: 100%;
+  max-height: 460px;
+}
+
+.carousel-inner{
+height: 500px;
+}
+
+.FooterRedes {
+  display: inline-block;
+}
+
