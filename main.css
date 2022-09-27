@@ -6,12 +6,12 @@
 
 /* todo esto es para la imagen que quiero poner de fondo */
 body {
-  background-color: #f5ea91;
+  background-color: #FAFCC2;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .header nav ul li {
-  border: #f8d383 solid 1px; }
+  border: #F9C0C0 solid 1px; }
 
 @keyframes pulse {
   0% {
@@ -22,7 +22,7 @@ body {
     transform: scale(0.99); } }
 
 .header nav ul li:hover {
-  background-color: #f6d06d;
+  background-color: #FAFCC2;
   animation: pulse 0.7s infinite; }
 
 .tituloyfoto {
@@ -31,9 +31,9 @@ body {
   margin-top: 60px; }
 
 footer {
-  background: linear-gradient(0deg, hsl(46, 100%, 84%) 0%, #fff3b2 31%, #f7ffe3 100%);
+  background: linear-gradient(0deg, #fbfcd1 0%, #ffe9cc 31%, #ffe6e6 100%);
   text-align: center;
-  border: 2px #f8d383 solid; }
+  border: 2px #F9C0C0 solid; }
 
 .footer {
   padding: 5px; }
@@ -47,7 +47,7 @@ footer {
 
 .tamañofoto {
   width: 50%;
-  border: solid #f8d383 2px; }
+  border: solid #F9C0C0 2px; }
 
 .imagenesVestidos {
   display: grid;
@@ -74,38 +74,38 @@ footer {
   text-align: center; }
 
 .imagenesVestidos div {
-  border: 2px #f8d383 solid; }
+  border: 2px #F9C0C0 solid; }
 
 .imagenesAccesorios div {
-  border: 2px #f8d383 solid; }
+  border: 2px #F9C0C0 solid; }
 
 .imagenesMonos div {
-  border: 2px #f8d383 solid; }
+  border: 2px #F9C0C0 solid; }
 
 .imagenesConjuntos div {
-  border: 2px #f8d383 solid; }
+  border: 2px #F9C0C0 solid; }
 
 .h1vestidos {
   text-align: center;
-  font-size: 60px;
+  font-size: 39px;
   margin-top: 60px;
   margin-bottom: 40px; }
 
 .h1accesorios {
   text-align: center;
-  font-size: 60px;
+  font-size: 39px;
   margin-top: 60px;
   margin-bottom: 40px; }
 
 .h1monos {
   text-align: center;
-  font-size: 60px;
+  font-size: 39px;
   margin-top: 60px;
   margin-bottom: 40px; }
 
 .h1conjuntos {
   text-align: center;
-  font-size: 60px;
+  font-size: 39px;
   margin-top: 60px;
   margin-bottom: 40px; }
 
@@ -139,12 +139,12 @@ footer {
 
 .fotoindex {
   width: 90%;
-  border: solid #f8d383 2px; }
+  border: solid #F9C0C0 2px; }
 
 
 .fotoindex1 {
   width: 60%;
-  border: solid #f8d383 2px; }
+  border: solid #F9C0C0 2px; }
 
 @media screen and (max-width: 1270px) {
   .imagenesVestidos {
@@ -165,10 +165,10 @@ footer {
   display: inline-block; }
 
 .containerContacto {
-  border: solid 1px #fac57b;
+  border: solid 1px #F9C0C0;
   padding: 30px;
   margin: 50px;
-  background-color: rgb(255, 255, 192); }
+  background-color: #CCF6C8; }
 
 .containerSandalias {
   display: flex;
